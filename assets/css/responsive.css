@@ -1,0 +1,97 @@
+@media(max-width: 991px) {
+    html {
+        font-size: 14px;
+    }
+    .blog-section .blog-item,
+    .portfolio-section .portfolio-item,
+    .service-section .service-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 767px) {
+    html {
+        font-size: 13px;
+    }
+    .blog-section .blog-item,
+    .contact-section .w-50,
+    .contact-section .contact-item,
+    .portfolio-section .portfolio-item,
+    .portfolio-popup .description,
+    .portfolio-popup .info,
+    .service-section .service-item,
+    .about-section .skills .skill-item,
+    .about-section .about-info,
+    .about-section .about-img,
+    .home-section .home-text,
+    .home-section .home-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .contact-section .submit-btn,
+    .home-section .home-text {
+        text-align: center;
+    }
+    .home-section .home-img {
+        margin-top: 1.375rem;
+    }
+    .home-section .home-img .img-box {
+        max-width: 100%;
+    }
+    .home-section .full-screen {
+        padding: 6.25rem 0;
+    }
+    .effect-1 {
+        bottom: 10%;
+    }
+    .effect-2 {
+        left: 2%;
+        bottom: 28%;
+    }
+    .effect-3 {
+        left: 40%;
+    }
+    .effect-4 {
+        left: 10%;
+        top: 20%;
+    }
+    .effect-5 {
+        right: 12%;
+        top: 30%;
+    }
+    footer {
+        height: 90vh;
+    }
+    .about-section .about-img {
+        padding-bottom: 1.875rem;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) {
+        padding-right: 0.9375rem;
+        text-align: left;
+        padding-left: 4.6875rem;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) {
+        padding-left: 4.6875rem;
+    }
+    .about-section .timeline::before {
+        left: 2.1875rem;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) .icon {
+        right: auto;
+        left: -3.75rem;
+    }
+    .about-section .timeline .timeline-item:nth-child(even) .icon {
+        left: -3.75rem;
+    }
+    .about-section .timeline .timeline-item {
+        margin-bottom: 2.5rem;
+    }
+    .about-section .timeline .timeline-item:last-child {
+        margin-bottom: 0;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) .timeline-item-inner::before {
+        left: 1.875rem;
+        right: auto;
+    }
+}
